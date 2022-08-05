@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "destino":"Rio de Janeiro",
+        "precio": 300,
+        "imagen":"https://www.costacruceros.com/content/dam/costa/costa-magazine/article-images/what-to-see-in-rio-de-janeiro/rio-de-janeiro-panorama_YuJas-Shutterstock_1.jpg.image.648.487.high.jpg"
+    },
+    {
+        "id": 2,
+        "destino":"Paris",
+        "precio": 1000,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1200px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg"
+    },
+    {
+        "id": 3,
+        "destino":"Madrid",
+        "precio": 800,
+        "imagen":"https://a.cdn-hotels.com/gdcs/production133/d1207/7ad2d7f0-68ce-11e8-8a0f-0242ac11000c.jpg"
+    },
+    {
+        "id": 4,
+        "destino":"Barcelona",
+        "precio": 850,
+        "imagen":"https://as01.epimg.net/diarioas/imagenes/2022/04/30/actualidad/1651323395_313362_1651323476_noticia_normal_recorte1.jpg"
+    },
+    {
+        "id": 5,
+        "destino":"Berlin",
+        "precio": 1100,
+        "imagen":"https://viajes.nationalgeographic.com.es/medio/2017/02/09/shutterstock-302415089_6b607cdb.jpg"
+    },
+    {
+        "id": 6,
+        "destino":"Santiago de Chile",
+        "precio": 100,
+        "imagen":"https://storage.googleapis.com/chile-travel-newsite-static-content/2021/08/santiago-portada.jpg"
+    },
+    {
+        "id": 7,
+        "destino":"Miami",
+        "precio": 700,
+        "imagen":"https://www.viajarmiami.com/img/guia-viaje-miami.jpg"
+    },
+    {
+        "id": 8,
+        "destino":"Buenos Aires",
+        "precio": 100,
+        "imagen":"https://media.istockphoto.com/photos/argentina-buenos-aires-dawn-at-center-with-rush-hour-picture-id667138246?k=20&m=667138246&s=170667a&w=0&h=KH7FMSJgtYEW4-Ewb0uJGvRdy0tvvD8bwFCY0gUUVHY="
+    },
+    {
+        "id": 9,
+        "destino":"Roma",
+        "precio": 900,
+        "imagen":"https://dam.ngenespanol.com/wp-content/uploads/2021/08/GettyImages-1281637337.jpg"
+    }
+    
+]

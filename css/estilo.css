@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #DBE2EF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.aereos{
+    background-color: #DBE2EF;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.btnAgregar{
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 25px;
+    border: 2px solid #326789;
+    background: #E9EEF2;
+    color: #624441;
+    transition: .5s ease;
+}
+.btnAgregar:hover{
+    background: #5714f4;
+    color: #E9EEF2;
+}
+.btnAgregar:active{
+    background: #2a0f2e;
+}
+
+/*FORMULARIO*/
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inputA{
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+/*Textos*/
+
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.subtitulo{
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.titulo{
+    color: #010608;
+    width: 100vw;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+/*Pasajeros*/
+
+#viajantes{
+    background: #DBE2EF;
+    font-family: Lato;
+    width: 100%;
+}
+
+
+.pasajero{
+    color: black;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#Pasaj{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: Lato;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.MostrarPasajero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 8px;
+}
+
+/*Tarjetas*/
+
+#contenedor{
+    display: grid;
+    color: #DBE2EF;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.tarjetas{
+    max-width: 300px;
+    position: relative;
+    padding: 15px 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background: #3F72AF;
+    box-shadow: 2px 2px 5px rgb(66, 66, 66);
+}
+
+.imgDestino{
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+
+.cart{
+    position: absolute;
+    right: 35px;
+    top: 25px;
+    text-decoration: none;
+}
+
+.cartIcon{
+    width: 30px;
+    height: 30px;
+}
+
+.cartContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*CARRITO*/
+
+
+
+
+.txtCarrito{
+    text-align: center;
+    color: black;
+    margin: 30px;
+}
+.btnVolver{
+    text-decoration: none;
+    width: fit-content;
+}
+.btnVolver button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+    border: none;
+}
+
+.btnVolver button:hover{
+    color: #3F72AF;
+    background: #dd2313;
+}
+
+
+#cartCounter{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.tableContainer{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table tr th:first-child{
+    width: 80px;
+}
+
+table tr th:nth-child(2){
+    width: 300px;
+}
+
+thead tr th{
+    background: #112D4E;
+    color: #E9EEF2; 
+}
+
+thead tr th:first-child{
+    border-radius: 10px 0px 0px 0px;
+}
+
+thead tr th:last-child{
+    border-radius: 0px 10px 0px 0px;
+}
+
+
+tbody tr:nth-child(even){
+    background: #3F72AF;
+}
+
+tbody tr:nth-child(odd){
+    background: #F9F7F7;
+}
+
+tfoot tr th{
+    background: #112D4E;
+    color: #E9EEF2;
+}
+
+tfoot tr th:first-child{
+    border-radius: 0px 0px 0px 10px;
+}
+
+
+tfoot tr th:last-child{
+    border-radius: 0px 0px 10px 0px;
+}
+
+th{
+    background: transparent;
+}
+
+.imgProdCart{
+    width: 180px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.detallesTabla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fecha{
+    text-align: center;
+}
+
+.nombres{
+    text-align: center;
+    padding: 0px;
+
+}
+
+.precio{
+    text-align: center;
+}
+
+#total{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.nombreProd{
+    padding-left: 10px;
+}
+
+
+.txtTotal{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.txtTabla{
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.btnTerminar{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #dd2313;
+    transition: 0.5s ease;
+    border: none;
+}
+
+
+.cantidad{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.button{
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 25px;
+    border: 2px solid #326789;
+    background: #E9EEF2;
+    color: #624441;
+    transition: .5s ease;
+}
+
+.button:hover{
+    background: #dd2313;
+    color: #E9EEF2;
+}
+.button:active{
+    background: #0F172E;
+}
+
